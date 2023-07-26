@@ -1,13 +1,17 @@
 from abc import ABC, abstractmethod
 
 
-class ConnectorAPI(ABC):
-    @abstractmethod
-    def get_connect(self):
+class VacAll(ABC):
+    def get_salary(self, data):
         pass
 
+    def get_view_to_save(self):
+        pass
+
+
+class ConnectorAPI(ABC):
     @abstractmethod
-    def get_vacancies(self):
+    def get_request(self, vacancy):
         pass
 
 
