@@ -10,6 +10,7 @@ packages = [{include = "oop_course4(parsingjobs)"}]
 python = "^3.11"
 pyflakes = "^3.0.1"
 flake8 = "^6.0.0"
+requests = "^2.31.0"
 
 
 [build-system]
